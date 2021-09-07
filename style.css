@@ -1,0 +1,189 @@
+/*--------------------------------------------------------------============================================================
+  
+1. Typography
+
+
+
+
+[Main Stylesheet]
+
+Project:   Online School
+Version:    0.1
+Last change:    02.09.2019
+Primary use:    Online School- Simple & Clean Templatee
+
+
+[Typography]
+
+Body: 20px 'Heebo', sans-serif;
+
+
+
+/*==============================
+[Table of contents]
+
+
+=============================================================--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+
+
+
+body {
+  font-size: 19px;
+  line-height: 32px;
+  color: #fff;
+  background-color: #000;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a, a:active, a:focus, a:active {
+  color: #222222;
+  text-decoration:none !important
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus {
+  outline: none;
+}
+input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #999;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+dl {
+  margin-bottom: 1.6em;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 1.6em;
+}
+table,
+th,
+td {
+  border: 1px solid #eaeaea;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  margin: 0 0 1.6em;
+  table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+th {
+  border-width: 0 1px 1px 0;
+  font-weight: 700;
+}
+td {
+  border-width: 0 1px 1px 0;
+}
+th, td {
+  padding: 0.4em;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+iframe {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*---------------------------------------------------
+HOME PAGE STYLESHEET 
+----------------------------------------------------*/
+
+.main-section {
+    height: 100vh;
+    display: flex;
+    -webkit-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    align-items: center;
+}
+
+.info-header h2{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.info-header h2 span{
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 49px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.info-header {
+    margin-bottom: 34px;
+}
+.main-info ul li img{
+    margin-right: 10px;
+}
+.main-info ul li a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+.social ul li{
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.main-info {
+    border-right: 1px solid;
+}
+.main-column {
+    margin-left: 50px;
+}
+.main-info {
+    border-right: 1px solid;
+    padding-top: 17px;
+}
