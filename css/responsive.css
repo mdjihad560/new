@@ -39,13 +39,6 @@
 }
 
 @media (max-width: 575px)  {
-
-
-}
-
-/*For 320-384px up Mobile Layout*/
-
-@media (max-width: 479px) {
 .main-info {
     border: none;
 }
@@ -55,6 +48,13 @@
     padding-top: 0px;
     margin-bottom: 35px;
 }
+
+}
+
+/*For 320-384px up Mobile Layout*/
+
+@media (max-width: 479px) {
+
 
 }
 
