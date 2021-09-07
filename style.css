@@ -157,7 +157,6 @@ HOME PAGE STYLESHEET
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-
 .info-header {
     margin-bottom: 34px;
 }
@@ -168,7 +167,6 @@ HOME PAGE STYLESHEET
     font-size: 20px;
     color: #fff;
 }
-
 .logo {
     margin-bottom: 15px;
 }
@@ -176,14 +174,10 @@ HOME PAGE STYLESHEET
     margin-right: 10px;
     display: inline-block;
 }
-
-.main-info {
-    border-right: 1px solid;
-}
 .main-column {
     margin-left: 50px;
 }
 .main-info {
-    border-right: 1px solid;
+    border-right: 1px solid #fff;
     padding-top: 17px;
 }
